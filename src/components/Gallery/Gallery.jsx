@@ -6,12 +6,9 @@ function Gallery({ blocoId }) {
   const [modalAberto, setModalAberto] = useState(false);
   const [imagemSelecionada, setImagemSelecionada] = useState(null);
 
-  const imagensFiltradas = imagens.filter(imagem => {
-    if (blocoId === 'construcao' && imagem.src.includes('construcoes')) return true;
-    if (blocoId === 'custom' && imagem.src.includes('customizacoes')) return true;
-    if (blocoId === 'manutencao' && imagem.src.includes('manutencoes')) return true;
-    return false;
-  });
+
+  const imagensFiltradas = imagens.filter(imagem => imagem.categoria === blocoId);
+
 
   const abrirModal = (imagem) => {
     setImagemSelecionada(imagem);
