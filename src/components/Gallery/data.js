@@ -1,4 +1,4 @@
-import B01 from '../../assets/images/construcoes/B01.jpg';
+//import B01 from '../../assets/images/construcoes/B01.jpg';
 import B02 from '../../assets/images/construcoes/B02.jpg';
 import B03 from '../../assets/images/construcoes/B03.jpg';
 import B04 from '../../assets/images/construcoes/B04.jpg';
@@ -25,7 +25,7 @@ import M11 from '../../assets/images/manutencoes/11.jpg';
 import M12 from '../../assets/images/manutencoes/12.jpg';
 
 const imagens = [
-  { id: 1, src: B01, alt: 'Construção 01', descricao: 'Corpo e braço em cedro rosa; Escala em imbuia; Captadores Seymour Duncan; Trastes Dunlop Jumbo' },
+  { id: 1, src: '../../assets/images/construcoes/B01.jpg', alt: 'Construção 01', descricao: 'Corpo e braço em cedro rosa; Escala em imbuia; Captadores Seymour Duncan; Trastes Dunlop Jumbo' },
   { id: 2, src: B02, alt: 'Construção 02', descricao: 'Corpo em marupá; braço em tauari; escala em pau ferro; captadores Malagoli' },
   { id: 3, src: B03, alt: 'Construção 03', descricao: 'Bloco central em pinus; asas em cedro rosa; escala em imbuia; captador single' },
   { id: 4, src: B04, alt: 'Construção 04', descricao: 'Corpo e braço em mogno; escala em ébano; captadores Seymour Duncan; trastes jumbo' },
