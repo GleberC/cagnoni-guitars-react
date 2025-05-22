@@ -1,14 +1,10 @@
 {
   "name": "cagnoni-guitars-react",
   "private": true,
-  "homepage": "https://GleberC.github.io/cagnoni-guitars-react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.0.0",
